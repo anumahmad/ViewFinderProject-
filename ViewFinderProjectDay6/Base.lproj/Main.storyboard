@@ -13,8 +13,8 @@
         <!--ViewFinder Project Day 6-->
         <scene sceneID="DjO-oD-jku">
             <objects>
-                <tableViewController id="u6t-Zz-IHg" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s84-Wc-q73">
+                <tableViewController id="u6t-Zz-IHg" customClass="PostTableViewController" customModule="ViewFinderProjectDay6" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s84-Wc-q73" customClass="PostTab">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -95,6 +95,9 @@
                                 <rect key="frame" x="396" y="882" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save!"/>
+                                <connections>
+                                    <action selector="savePhoto:" destination="17c-xT-2ST" eventType="touchUpInside" id="B1s-CY-m2S"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -102,6 +105,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="HdT-oG-pqu"/>
                     <connections>
+                        <outlet property="NewImageView" destination="IgY-bZ-pPh" id="PBl-BV-AtN"/>
+                        <outlet property="captionText" destination="Ycp-Gu-TBI" id="wH6-mO-Bs0"/>
                         <outlet property="shownImage" destination="IgY-bZ-pPh" id="uW0-ME-BW7"/>
                     </connections>
                 </viewController>

@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CE256B22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CE256922F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld */; };
 		18D8BD3C22EF6BAA0031572E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8BD3B22EF6BAA0031572E /* AppDelegate.swift */; };
 		18D8BD4122EF6BAA0031572E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8BD3F22EF6BAA0031572E /* Main.storyboard */; };
-		18D8BD4422EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D8BD4222EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodeld */; };
 		18D8BD4622EF6BAB0031572E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D8BD4522EF6BAB0031572E /* Assets.xcassets */; };
 		18D8BD4922EF6BAB0031572E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8BD4722EF6BAB0031572E /* LaunchScreen.storyboard */; };
 		18D8BD5122EF83820031572E /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8BD5022EF83820031572E /* AddPhotoViewController.swift */; };
+		18D8BD5322EF8C9F0031572E /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8BD5222EF8C9F0031572E /* PostTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18CE256A22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewFinderProjectDay6.xcdatamodel; sourceTree = "<group>"; };
 		18D8BD3822EF6BAA0031572E /* ViewFinderProjectDay6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewFinderProjectDay6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D8BD3B22EF6BAA0031572E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D8BD4022EF6BAA0031572E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18D8BD4322EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewFinderProjectDay6.xcdatamodel; sourceTree = "<group>"; };
 		18D8BD4522EF6BAB0031572E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D8BD4822EF6BAB0031572E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D8BD4A22EF6BAB0031572E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D8BD5022EF83820031572E /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18D8BD5222EF8C9F0031572E /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 				18D8BD3F22EF6BAA0031572E /* Main.storyboard */,
 				18D8BD4522EF6BAB0031572E /* Assets.xcassets */,
 				18D8BD4722EF6BAB0031572E /* LaunchScreen.storyboard */,
+				18D8BD5222EF8C9F0031572E /* PostTableViewController.swift */,
 				18D8BD5022EF83820031572E /* AddPhotoViewController.swift */,
 				18D8BD4A22EF6BAB0031572E /* Info.plist */,
-				18D8BD4222EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodeld */,
+				18CE256922F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld */,
 			);
 			path = ViewFinderProjectDay6;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D8BD4422EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodeld in Sources */,
+				18CE256B22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld in Sources */,
+				18D8BD5322EF8C9F0031572E /* PostTableViewController.swift in Sources */,
 				18D8BD5122EF83820031572E /* AddPhotoViewController.swift in Sources */,
 				18D8BD3C22EF6BAA0031572E /* AppDelegate.swift in Sources */,
 			);
@@ -342,12 +346,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		18D8BD4222EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodeld */ = {
+		18CE256922F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				18D8BD4322EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodel */,
+				18CE256A22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodel */,
 			);
-			currentVersion = 18D8BD4322EF6BAA0031572E /* ViewFinderProjectDay6.xcdatamodel */;
+			currentVersion = 18CE256A22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodel */;
 			path = ViewFinderProjectDay6.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
