@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18CE256B22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CE256922F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld */; };
+		18CE256D22F0C15100800DC1 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE256C22F0C15100800DC1 /* PhotoDetailViewController.swift */; };
 		18D8BD3C22EF6BAA0031572E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8BD3B22EF6BAA0031572E /* AppDelegate.swift */; };
 		18D8BD4122EF6BAA0031572E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8BD3F22EF6BAA0031572E /* Main.storyboard */; };
 		18D8BD4622EF6BAB0031572E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D8BD4522EF6BAB0031572E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		18CE256A22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewFinderProjectDay6.xcdatamodel; sourceTree = "<group>"; };
+		18CE256C22F0C15100800DC1 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		18D8BD3822EF6BAA0031572E /* ViewFinderProjectDay6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewFinderProjectDay6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D8BD3B22EF6BAA0031572E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D8BD4022EF6BAA0031572E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				18D8BD3F22EF6BAA0031572E /* Main.storyboard */,
 				18D8BD4522EF6BAB0031572E /* Assets.xcassets */,
 				18D8BD4722EF6BAB0031572E /* LaunchScreen.storyboard */,
+				18CE256C22F0C15100800DC1 /* PhotoDetailViewController.swift */,
 				18D8BD5222EF8C9F0031572E /* PostTableViewController.swift */,
 				18D8BD5022EF83820031572E /* AddPhotoViewController.swift */,
 				18D8BD4A22EF6BAB0031572E /* Info.plist */,
@@ -144,6 +147,7 @@
 				18CE256B22F09DF500800DC1 /* ViewFinderProjectDay6.xcdatamodeld in Sources */,
 				18D8BD5322EF8C9F0031572E /* PostTableViewController.swift in Sources */,
 				18D8BD5122EF83820031572E /* AddPhotoViewController.swift in Sources */,
+				18CE256D22F0C15100800DC1 /* PhotoDetailViewController.swift in Sources */,
 				18D8BD3C22EF6BAA0031572E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
